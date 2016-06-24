@@ -1,0 +1,7 @@
+set clipboard=unnamed
+
+set conceallevel=0
+
+" Timeout for exiting INSERT mode
+set timeoutlen=1000 
+set ttimeoutlen=0
