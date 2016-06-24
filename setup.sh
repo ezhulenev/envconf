@@ -1,7 +1,9 @@
 #!/bin/sh
 
 # Tmux
-ln -s ~/envconf/tmux.conf ~/.tmux.conf
+echo "Setup tmux config symlink"
+ln -f -s ~/envconf/tmux.conf ~/.tmux.conf
 
 # Haskell Vim IDE : https://github.com/begriffs/haskell-vim-now
-ln -s ~/envconf/vimrc.local.pre ~/.config/haskell-vim-now/vimrc.local.pre
+echo "Setup Haskell Vim IDE config symlink"
+ln -f -s ~/envconf/vimrc.local.pre ~/.config/haskell-vim-now/vimrc.local.pre
