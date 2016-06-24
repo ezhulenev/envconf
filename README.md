@@ -1,2 +1,3 @@
 # envconf
-Configs
+
+Haskell Vim IDE & tmux configuratio
