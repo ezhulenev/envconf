@@ -3,3 +3,7 @@ set clipboard=unnamed
 " Timeout for exiting INSERT mode
 set timeoutlen=1000 
 set ttimeoutlen=0
+
+" Insert new line wirhout entering insert mode
+nmap oo  o<Esc>k
+nmap OO O<Esc>j
