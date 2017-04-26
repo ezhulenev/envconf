@@ -1,3 +1,7 @@
-# envconf
+# EnvConf
 
-Haskell Vim IDE & tmux configuratio
+```
+> cd ~
+> git clone git clone git@github.com:ezhulenev/envconf.git
+> ./envconf/setup.sh
+```
